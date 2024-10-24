@@ -2,9 +2,6 @@ public class Rhombus {
 	Integer diagonalA;
 	Integer diagonalB;
 
-	public Rhombus() {
-	}
-
 	public Rhombus(Integer diagonalA, Integer diagonalB) {
 		this.diagonalA = diagonalA;
 		this.diagonalB = diagonalB;
