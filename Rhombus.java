@@ -19,6 +19,6 @@ public class Rhombus {
 	}
 
 	public double perimeter() {
-		return 4 * side;
+		return 4 * this.side();
 	}
 }
