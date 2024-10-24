@@ -1,19 +1,21 @@
 public class Rhombus {
 	Integer diagonalA;
 	Integer diagonalB;
-	Integer side;
 
 	public Rhombus() {
 	}
 
-	public Rhombus(Integer diagonalA, Integer diagonalB, Integer side) {
+	public Rhombus(Integer diagonalA, Integer diagonalB) {
 		this.diagonalA = diagonalA;
 		this.diagonalB = diagonalB;
-		this.side = side; 
+	}
+
+	public double side() {
+		return Math.sqrt(Math.exp(diagonalA,2) + Math.exp(diagonalB)) / 2.0; 
 	}
 
 	public double area() { 
-		return diagonalA * diagonalB / 2;
+		return diagonalA * diagonalB / 2.0;
 	}
 
 	public double perimeter() {
